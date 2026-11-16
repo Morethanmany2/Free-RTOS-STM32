@@ -1,6 +1,23 @@
-.metadata
-FREERTOS_TEST1/CMAKELists.txt
-FREERTOS_TEST1\CMakePresets.json
-FREERTOS_TEST1\cubeide-gcc.cmake
-FREERTOS_TEST1\STM32F103C8TX_FLASH.ld
-FREERTOS_TEST1\.settings
+# Eclipse workspace
+.metadata/
+
+# Build directories
+Debug/
+Release/
+build/
+
+# Compiled files
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
